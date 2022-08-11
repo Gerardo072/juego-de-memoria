@@ -9,7 +9,7 @@
 
 body {
     padding: 0;
-    margin: 0; 
+    margin: 1; 
     -webkit-perspective: 1000;
     background-image: url('https://www.xtrafondos.com/wallpapers/vertical/rojo-opaco-7471.jpg'); 
     min-height: 100vh;
