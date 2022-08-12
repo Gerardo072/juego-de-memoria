@@ -5,13 +5,14 @@
 
 * {
     transition: all 0.3s;
+    font-family: 'Varela Round', sans-serif;
 }
 
 body {
     padding: 0;
-    margin: 1; 
+    margin: 0;
     -webkit-perspective: 1000;
-    background-image: url('https://www.xtrafondos.com/wallpapers/vertical/rojo-opaco-7471.jpg'); 
+    background-image: url('https://fondosmil.com/fondo/46044.jpg'); 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,6 +20,7 @@ body {
     align-items: center;
     text-align: center;
 }
+
 
 div {
     display: inline-block;
@@ -51,7 +53,7 @@ div {
 }
 
 .trasera {
-    background-color:  #fff;
+    background-color:  rgb(147, 147, 147);
     transform: rotateY(180deg);
 }
 
@@ -67,7 +69,7 @@ div {
     font-size: 130%;
 }
 .nuevo-juego:hover {
-    background: #f3927c;
+    background: hwb(225 16% 0%);
 }
 
 #puntos {
@@ -79,7 +81,7 @@ div {
     font-size: 150%;
     margin-left: 30px;
     padding: 10px;
-    border: 1px solid #DF7861;
+    border: 1px solid hwb(225 16% 0%);
     border-radius: 5px;
 }
 
